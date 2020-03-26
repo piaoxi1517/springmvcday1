@@ -26,14 +26,17 @@
 
     <%--</form>--%>
     <%--自定义类型装换器--%>
-    <form action="anno/testRequestBody" method="post">
+    <form action="anno/testModelAttribute" method="post">
 
-    用户的姓名：<input type="text" name="username"/><br/>
+    用户的姓名：<input type="text" name="uname"/><br/>
     用户的年龄：<input type="text" name="age"/><br/>
 
     <input type="submit" name="提交"><br/>
 
     </form>
-    <a href="anno/testRequestParam?name=haha">Username</a>
+    <a href="anno/testRequestParam?name=haha">Username</a><br/>
+    <a href="anno/testCookieValue">CookieValue</a>
+    <a href="anno/testSessionAttribute">SessionAttribute</a><br/>
+    <a href="anno/getSessionAttribute">getSessionAttribute</a><br/>
 </body>
 </html>
